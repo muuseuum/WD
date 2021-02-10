@@ -16,32 +16,26 @@ $nickels=0;
 $cents=0;
 
 echo "You are due $amount cents back in change total.</br>";
-//echo "You are due back ";
 if($amount>=100){
     $dollars = intdiv($amount,100);
-    //echo " dollar(s), ";
   $amount = $amount%100;
   }
 if($amount>=25){
   $quaters = intdiv($amount,25);
-  //echo " quarter(s), ";
   $amount = $amount%25;
   }
 
 if($amount>=10){
   $dimes = intdiv($amount,10);
-  //echo " dime(s), ";
   $amount = $amount%10;
 }
 
 if($amount>=5){
   $nickels = intdiv($amount,5);
-  //echo " nickel(s), and ";
   $amount = $amount%5;
 }
 if($amount>=1){
   $cents= intdiv($amount,1);
-  //echo " cent(s).</br>";
   $amount = $amount%1;
 }
 
