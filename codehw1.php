@@ -8,7 +8,7 @@
 
 <h1>Challenge 1:Correct Change</h1>
 <?php
-$amount=200;
+$amount=159;
 $dollars=0;
 $quaters=0;
 $dimes=0;
@@ -49,6 +49,7 @@ echo "You are due back $dollars dollar(s), $quaters quater(s), $dimes dime(s), $
          echo "$i bottles of beer on the wall, $i bottles of beer!<br>";
          $i = $i-1;
          echo "Take one down, pass it around, $i bottles of beer on the wall!!</br>";
+
          }
          ?>
 
