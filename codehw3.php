@@ -102,7 +102,6 @@ echo "Beginning the coin flipping...<br>";
 
 function cointoss () {
   return mt_rand(0,1);
-  //0=true? and 1=false?
 }
 
 $head = '<img src="heads.jpg" width="100" height="100"/>';
@@ -111,18 +110,15 @@ $tail = '<img src="tails.jpg" width="100" height="100"/>';
     $prevCoin = cointoss();
     $cointoss =0;
     if($prevCoin === 1) {
-      // show head
 
       echo $head;
     } else {
-      // show tail
       echo $tail;
     }
 
     $count = 1;
  while ($count <= 8){
-   //++$count;
-   //flips coins untill count number (previous coin)=8 stop fliping
+
    $currentCoin = cointoss();
    if ($currentCoin == 1){
      echo $head;
