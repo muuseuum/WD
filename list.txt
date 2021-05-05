@@ -1,0 +1,5 @@
+<li><a href=http://localhost/finalproject/homepage/about.php> About </a> </li>
+<br>
+<li><a href=http://localhost/finalproject/homepage/pastissues.php> Past Issues </a> </li>
+<br>
+<br>

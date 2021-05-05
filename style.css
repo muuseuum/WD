@@ -1,0 +1,29 @@
+header{
+  border-bottom:10px solid white;
+  background-color: #ddc2ef;
+  padding:100px;
+}
+nav{
+  border-right:10px solid pink;
+  width:200px;
+  height:600px;
+  float:left;
+  background-color: pink;
+}
+ol{
+  list-style:none;
+  padding-inline-start:10px;
+  background-color: pink;
+}
+article{
+  width:500px;
+  float:left;
+  padding:20px;
+}
+#control{
+  float:right;
+}
+header img{
+  float:right;
+  height:180px;
+}
